@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- BS4 CSS
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+
+    <!-- BS5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- VENO BOX CSS -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="container-md">
+        <!-- <p class=" text-end text-white mb-0"><i class="fas fa-phone-alt"></i>
+            <span class="mx-3 border-end pe-2">096.105.1014</span>
+            <i class="fa fa-search"></i>
+        </p> -->
+        <nav class="navbar navbar-expand-md navbar-dark ">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a> -->
+                <h1 class="my__name">Jenny Ngo</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#movieNavber"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"> -->
+                        <i class="fa fa-bars"></i>
+                    <!-- </span> -->
+                </button>
+
+                <div class="collapse navbar-collapse" id="movieNavber">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item line">
+                            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="#experience">WORK</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header id="headerFixed">
+        <nav class="container navbar navbar-expand-md navbar-dark ">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a> -->
+                <h1 class="my__name">Jenny Ngo</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#movieNavber"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"> -->
+                        <i class="fa fa-bars"></i>
+                    <!-- </span> -->
+                </button>
+
+                <div class="collapse navbar-collapse" id="movieNavber">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item line">
+                            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="#experience">WORK</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- CAROUSEL -->
+    <section class="movieCarousel">
+        <div id="carouselMovie" class="carousel slide carousel-fade">
+            <!-- data-bs-ride="carousel" -->
+            <!-- <div class="container carousel-indicators">
+                <button type="button" data-bs-target="#carouselMovie" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselMovie" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselMovie" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- <div class="bg-hero-pattern bg-cover bg-no-repeat bg-center"></div> -->
+                    <img src="./img/5053309.jpg" class="d-block w-100" alt="...">
+                    <div class="movieCarousel__overlay"></div>
+                    <div class="container carousel-caption">
+                        <div class="col-12 col-lg-9 ">
+                            <h2 class="animate__animated animate__fadeInDown">My Portfolio</h2>
+                            <p class="animate__animated animate__fadeInDown 	">FRONT END DEVELOPER, SOFTWARE ENGINEER</p>
+                            <p class="animate__animated animate__fadeInUp">I'm a skilled software developer with experience in TypeScript and JavaScript, 
+                                and expertise in frameworks like React and Node.js. 
+                                I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. 
+                                My passion for programming and problem-solving has led me to continuously explore new technologies and stay up-to-date with the latest industry trends. 
+                                I am excited to collaborate and contribute my skills to any project or team that values creativity, innovation, and quality software development!</p>
+                            <!-- <div class="movieCarousel__trailer animate__animated animate__fadeInUp 	">
+                                <button class="btn">
+                                    <span>
+                                        <a href=""><i class="fa fa-download"></i></a>
+                                        MY CV
+                                        <a href="#"><i class="fab fa-github"></i>Github</a>
+                                    </span>
+                                </button>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div class="carousel-item">
+                    <img src="./img/hero-2.jpg" class="d-block w-100" alt="...">
+                    <div class="movieCarousel__overlay"></div>
+                    <div class=" container carousel-caption ">
+                        <div class="col-12 col-lg-9 ">
+                            <p class="animate__animated animate__fadeInDown 	">ACTION, ADVENTURE, FANTASY</p>
+                            <h2 class="animate__animated animate__fadeInDown 	">End of the World: Part II</h2>
+                            <p class="animate__animated animate__fadeInUp 	">Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Est cumque eum dignissimos
+                                unde,
+                                quo ab blanditiis reprehenderit assumenda facilis voluptatum!</p>
+                            <div class="movieCarousel__trailer animate__animated animate__fadeInUp 	">
+                                <span>PG</span>
+                                <button>
+                                    <span>
+                                        <i class="fa fa-play"></i>
+                                        PLAY TRAILER
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hero-3.jpg" class="d-block w-100" alt="...">
+                    <div class="movieCarousel__overlay"></div>
+                    <div class=" container carousel-caption ">
+                        <div class="col-12 col-lg-9 ">
+                            <p class="animate__animated animate__fadeInDown 	">ACTION, ADVENTURE, FANTASY</p>
+                            <h2 class="animate__animated animate__fadeInDown 	">End of the World: Part III</h2>
+                            <p class="animate__animated animate__fadeInUp 	">Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Est cumque eum dignissimos
+                                unde,
+                                quo ab blanditiis reprehenderit assumenda facilis voluptatum!</p>
+                            <div class="movieCarousel__trailer animate__animated animate__fadeInUp">
+                                <span>PG</span>
+                                <button>
+                                    <span>
+                                        <i class="fa fa-play"></i>
+                                        PLAY TRAILER
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- SHOW TIME -->
+    <section class="section showTime" id="experience">
+        <div class="container-md">
+            <ul class=" nav nav-tabs flex-column flex-sm-row" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link line active" id="mon-tab" data-bs-toggle="tab" data-bs-target="#mon"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">
+                        <span>EXPERIENCE</span>
+                    </button>
+                </li>
+                <!-- <li class="nav-item" role="presentation">
+                    <button class="nav-link line" id="tue-tab" data-bs-toggle="tab" data-bs-target="#tue" type="button"
+                        role="tab" aria-controls="profile" aria-selected="false">
+                        <span>TUE</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link line" id="today-tab" data-bs-toggle="tab" data-bs-target="#today"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">
+                        <span>TODAY</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link line" id="thu-tab" data-bs-toggle="tab" data-bs-target="#thu" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false">
+                        <span>THU</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link line" id="fri-tab" data-bs-toggle="tab" data-bs-target="#fri" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false">
+                        <span>FRI</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link line" id="sat-tab" data-bs-toggle="tab" data-bs-target="#sat" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false">
+                        <span>SAT</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link line" id="sun-tab" data-bs-toggle="tab" data-bs-target="#sun" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false">
+                        <span>SUN</span>
+                    </button>
+                </li> -->
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/pte.png" alt="movie5">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>PTE MASTER - Full-time</p>
+                            <span class="experience__time" >
+                                <i class="fa fa-clock"></i>
+                                Nov 2022 - Present
+                            </span>
+                            <h3>Junior Software Engineer</h3>
+                            <p class="experience__time">PTE Master is an online Learning system with integration to AI(NLP). </p>
+                            <p>
+                                <a href="#">PROJECTS INCLUDE <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="col-12 experience__time">
+                                <span>Learning Management System</span>
+                            </div>
+                            <div class="col-12 mb-3 experience__time">
+                                <span>Platform Practice System</span>
+                            </div>
+                            <div class="row showTime__viewing">
+                                <div class="col-12">
+                                    <span>
+                                        <i class="fa fa-desktop"></i>
+                                        TECHNOLOGY
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <div class="div">
+                                        <!-- <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button> -->
+                                        <ul>
+                                            <li>
+                                                <span>Java Spring Boot</span>
+                                            </li>
+                                            <li>
+                                                <span>ReacJS + RestAPI</span>
+                                            </li>
+                                            <li>
+                                                <span>NextJS</span>
+                                            </li>
+                                            <li>
+                                                <span>NGINX</span>
+                                            </li>
+                                            <li>
+                                                <span>PostGre SQL – AWS RDS</span>
+                                            </li>
+                                            <li>
+                                                <span>Google Cloud Storage</span>
+                                            </li>
+                                            <li>
+                                                <span>AWS EC2, Google NLP</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/download.png" alt="movie5">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>BENIT</p>
+                            <span class="experience__time">
+                                <i class="fa fa-clock"></i>
+                                May 2022 - Nov 2022
+                            </span>
+                            <h3>Junior Software Engineer</h3>
+                            <p class="experience__time">Visualisation of the public transport service simulation assists operator in a better understanding of the system under different possible scenarios. The Project developed a platform that visualizes rail services based on General Transit Feed Specification (GTFS). </p>
+                            <!-- <p>
+                                <a href="#">PROJECTS INCLUDE <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="col-12">
+                                <span>Learning Management System</span>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <span>Platform Practice System</span>
+                            </div> -->
+                            <div class="row showTime__viewing">
+                                <div class="col-12">
+                                    <span>
+                                        <i class="fa fa-desktop"></i>
+                                        TECHNOLOGY
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <div class="div">
+                                        <!-- <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button> -->
+                                        <ul>
+                                            <li>
+                                                <span>ReactJS/NextJS</span>
+                                            </li>
+                                            <li>
+                                                <span>Javascript</span>
+                                            </li>
+                                            <li>
+                                                <span>Bootstrap (HTML/CSS)</span>
+                                            </li>
+                                            <li>
+                                                <span>Node.js</span>
+                                            </li>
+                                            <li>
+                                                <span>GTFS Data</span>
+                                            </li>
+                                            <li>
+                                                <span>Figma and Adobe XD </span>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/shopee.jpg" alt="movie5">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>SHOPEE</p>
+                            <span class="experience__time">
+                                <i class="fa fa-clock"></i>
+                                Jan 2021 - May 2022
+                            </span>
+                            <h3>Junior Front end Developer</h3>
+                            <p class="experience__time">Shopee VietNam is a company using website application with purpose shopping online and ecommerce exchanges. I am involved in the frond-end team to build a user interface website. </p>
+                            <p>
+                                <a href="#">PROJECTS INCLUDE <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="col-12 experience__time">
+                                <span>Registration/login form</span>
+                            </div>
+                            <div class="col-12 mb-3 experience__time">
+                                <span>Searching tool and displayed the product</span>
+                            </div>
+                            <div class="col-12 mb-3 experience__time">
+                                <span>The shopping Carts function</span>
+                            </div>
+                            <div class="row showTime__viewing">
+                                <div class="col-12">
+                                    <span>
+                                        <i class="fa fa-desktop"></i>
+                                        TECHNOLOGY
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <div class="div">
+                                        <!-- <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button> -->
+                                        <ul>
+                                            <li>
+                                                <span>Javascript </span>
+                                            </li>
+                                            <li>
+                                                <span>ReacJS</span>
+                                            </li>
+                                            <li>
+                                                <span>PHP</span>
+                                            </li>
+                                            <li>
+                                                <span>Bootstrap (HTML/CSS3)</span>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-6.jpg" alt="movie6">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-7.jpg" alt="movie7">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+                <div class="tab-pane fade" id="tue" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-8.jpg" alt="movie8">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="today" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-9.jpg" alt="movie9">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="thu" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-11.jpg" alt="movie11">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="fri" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-12.jpg" alt="movie12movie-12.jpg">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-13.jpg" alt="movie13movie-13.jpg">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row py-5 showTime__row">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <img class="img-fluid" src="./img/movie-14.jpg" alt="movie14movie-14.jpg">
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0">
+                            <p>action, adventure, fantasy</p>
+                            <h3>Its's over</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolores odit
+                                excepturi qui possimus illo laborum! Deserunt, sit cumque!</p>
+                            <p>
+                                <a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                            </p>
+                            <div class="row showTime__viewing">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+                                    <span>
+                                        <i class="fa fa-clock"></i>
+                                        VIEWING TIMES
+                                    </span>
+                                    <div class="div">
+                                        <button class="btn" disabled>10:30</button>
+                                        <button class="btn">12:30</button>
+                                        <button class="btn">14:30</button>
+                                        <button class="btn">16:30</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl=3 text-md-end mt-3 mt-md-0 showTime__mins">
+                                    <span>105 MINS</span>
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- NEW IN -->
+    <section class=" section newIn">
+        <div class="container">
+            <h2 class="title">PROJECTS</h2>
+            <div class="newIn__content">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="newIn__img">
+                            <img class="img-fluid img__fix" src="./img/pte.png" alt="movie1">
+                            <div class="newIn__overlay"></div>
+                            <div class="newIn__play">
+                                <!-- <div>
+                                    <a href="#">
+                                        <i class="fa fa-folder"></i>
+                                    </a>
+                                    <button href="#">Read More</button>
+                                    <p class="date">Released: 7 Mar, 2021</p>
+                                </div> -->
+                                <div class="movieCarousel__trailer animate__animated animate__fadeInUp 	">
+                                    <button class="btn">
+                                        <span>
+                                            <i class="fa fa-folder"></i>
+                                            <p>View Project</p>
+                                        </span>
+                                        
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="newIn__title">
+                            <h3>PTE Master Website</h3>
+                            <p>PTE Master provides PTE practice platform powered by 
+                                AI and Machine learning that allows students to seamlessly practice and improve their PTE skills.</p>
+                            <div>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="newIn__img">
+                            <img class="img-fluid img__fix img__ccl" src="./img/ccl.png" alt="movie2">
+                            <div class="newIn__overlay"></div>
+                            <div class="newIn__play">
+                                <!-- <div>
+                                    <a href="#">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                    <a href="">Read More</a>
+                                    <p class="date">Released: 7 Mar, 2021</p>
+                                </div> -->
+                                <div class="movieCarousel__trailer animate__animated animate__fadeInUp 	">
+                                    <button class="btn">
+                                        <span>
+                                            <i class="fa fa-folder"></i>
+                                            <p>View Project</p>
+                                        </span>
+                                        
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newIn__title">
+                            <h3>CCL Magic</h3>
+                            <p>I have responsibility for developing and maintaining function and the website;
+                                 this website helps many students pass the challenging CCL exam.</p>
+                            <div>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="newIn__img">
+                            <img class="img-fluid img__fix" src="./img/my.jpeg" alt="movie3">
+                            <div class="newIn__overlay"></div>
+                            <div class="newIn__play">
+                                <!-- <div>
+                                    <a href="#">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                    <a href="">Read More</a>
+                                    <p class="date">Released: 7 Mar, 2021</p>
+                                </div> -->
+                                <div class="movieCarousel__trailer animate__animated animate__fadeInUp 	">
+                                    <button class="btn">
+                                        <span>
+                                            <i class="fa fa-folder"></i>
+                                            <p>View Project</p>
+                                        </span>
+                                        
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newIn__title">
+                            <h3>Elearning</h3>
+                            <p>This project aims to predict Udemy listing course 
+                                in different field, display the student feedback and based on the demand of the customer.</p>
+                            <div>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="newIn__img">
+                            <img class="img-fluid img__fix" src="./img/merged.PNG" alt="movie1">
+                            <div class="newIn__overlay"></div>
+                            <div class="newIn__play">
+                                <!-- <div>
+                                    <a href="#">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                    <a href="">Read More</a>
+                                    <p class="date">Released: 7 Mar, 2021</p>
+                                </div> -->
+                                <div class="movieCarousel__trailer animate__animated animate__fadeInUp 	">
+                                    <button class="btn">
+                                        <span>
+                                            <i class="fa fa-folder"></i>
+                                            <p>View Project</p>
+                                        </span>
+                                        
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newIn__title">
+                            <h3>Merged website</h3>
+                            <p>Using JavaScript, HTML5, CSS3, Bootstrap and some techonology to create flat and responsive website template for the compay specially for cusotmer service.</p>
+                            <div>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- COMING SOON -->
+    <section class="section comingsoon">
+
+        <div class="container-md">
+            <h2 class="title title--white">EDUCATION</h2>
+            <div class="row align-items-center ">
+                <div class="col-12 col-sm-6">
+                    <h3>Victoria University, Melbourne</h3>
+                    <p class="comingsoon__type">Bachelor of IT</p>
+                    
+                    <div class="comingsoon__rating">
+                        <!-- <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i> -->
+                        <span>
+                            <i class="fa fa-calendar-alt mx-3"></i>
+                            Feb 2018 - Nov 2020
+                        </span>
+                    </div>
+                    <p>I have gained comprehensive knowledge in various areas related to the field of
+                         Information Technology. </p>
+                    <p>Have done several projects during period in school, with those projects
+                         I have gained a lots of knowledge, come out with good feedback from professors.</p>
+                    <p>Specially,I have focused on building dynamic websites, where I have acquired the skills to design and develop websites that are interactive, user-friendly, and responsive </p>
+                    <!-- <a href="#">MORE INFO <i class="fa fa-angle-right"></i></a> -->
+                </div>
+                <div class="col-12 col-sm-6 mt-3 mt-sm-0">
+                    <!-- <a class="venobox" data-vbtype="video" href="https://youtu.be/sL3kLxsy-Lg"> -->
+                        <div class="comingsoon__video">
+                            <img class="img-fluid" src="./img/vicc.png" alt="slide">
+                            
+                        </div>
+                    <!-- </a> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MOVIE LIST -->
+    <!-- <section class="section movieList">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-lg-2 mb-3 mb-lg-0">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-9.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 mb-3 mb-lg-0">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-8.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 mb-3 mb-lg-0">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-11.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-13.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-12.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-14.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- CONTACT -->
+    <!-- <section class="section contact">
+        <div class="contact__content">
+            <p>Need help? Contact our support team on</p>
+            <p>
+                <a href="tel:0961051014">096 105 1014</a>
+
+            </p>
+        </div>
+
+    </section> -->
+    <!-- FOOTER -->
+    <footer >
+        <div class="container" id="contact">
+            <div class=" section row">
+                <div class="col-12 col-md-3">
+                    <h3>GET IN TOUCH</h3>
+                    <ul>
+                        <li><a href="tel:0432434243"> <i class="fa fa-phone"></i> 0432434243</a></li>
+                        <li><a href="email:myduyen27397@gmail.com"><i class="fa fa-envelope"></i> myduyen27397@gmail.com</a></li>
+                        <!-- <li><a href="#">Contact us</a></li> -->
+                    </ul>
+                </div>
+                <!-- <div class="col-12 col-md-3">
+                    <h3>ABOUT ME</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-linkedin"></i> </a></li>
+                        <li><a href="#">GFind us</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h3>LEGAL STUFF</h3>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies Policy</a></li>
+                    </ul>
+                </div> -->
+                <div class="col-12 col-md-3 ms-auto">
+                    <h3>CONNECT WITH US</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/jenny-ngo-72959513a/"> <i class="fab fa-linkedin"></i>Linkedin</a></li>
+                        <li><a href="https://github.com/JennyNgo273"><i class="fab fa-github"></i>Github</a></li>
+                        <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i>Google</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <!-- Library support-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- BS4 JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script> -->
+
+    <!-- JS BS5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- VENO BOX JS -->
+    <script src="./js/venobox.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.venobox').venobox();
+        });
+    </script>
+
+    <script>
+        $("ul.navbar-nav li.nav-link").on("click", function () {
+            $("ul.navbar-nav li.nav-link").removeClass("active");
+            $(this).addClass("active")
+        })
+    </script>
+
+    <!-- HEADER FIXED / MAIN JS -->
+    <script>
+
+        window.onscroll = function () {
+            //code create black bar during scroll
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                document.getElementById("headerFixed").style.transform = "translate(-50%, 0%)";
+            } else {
+                document.getElementById("headerFixed").style.transform = "translate(-50%, -100%)";
+            }
+        }
+    </script>
+</body>
+
+</html>
